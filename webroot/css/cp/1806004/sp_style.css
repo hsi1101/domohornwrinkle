@@ -430,6 +430,60 @@ a.btn {
 
 /*----------content:end----------*/
 
+@media screen and (max-width: 414px) {
+    .topbanner {
+        height: 85px;
+    }
+    .info {
+        height: 52rem;
+    }
+    .lfbw {
+        height: 90px;
+    }
+    .rfbw {
+        height: 90px;
+    }
+    .tag img {
+        width: 38%;
+        margin-left: -15px;
+    }
+    .dc {
+        font-size: 18px;
+    }
+    .blk04 .box_cnt {
+        width: 366px;
+    }
+    .list_cnt img {
+        width: 50px;
+    }
+    .blk04 .btn_blk04 img {
+        width: 82%;
+    }
+    .action_btns {
+        margin-top: -38px;
+    }
+    .frpic {
+        top: 135px;
+        left: 36px;
+        width: 45%!important;
+    }
+    .frpic2 {
+        top: 212px;
+        left: 36px;
+        width: 45%!important;
+    }
+    .text-lightbox {
+        top: 146px;
+        left: 207px;
+        font-size: 14px;
+    }
+    .text-lightbox2 {
+        top: 226px;
+        left: 207px;
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .topbanner {
         height: 58px;
@@ -481,12 +535,10 @@ a.btn {
     .text-lightbox {
         top: 132px;
         left: 168px;
-        font-size: 14px;
     }
     .text-lightbox2 {
         top: 203px;
         left: 168px;
-        font-size: 14px;
     }
 }
 

@@ -403,6 +403,40 @@ a.btn {
 
 /*----------content:end----------*/
 
+@media screen and (max-width: 414px) {
+    .topbanner {
+        height: 85px;
+    }
+    .info {
+        height: 46rem;
+    }
+    .lfbw {
+        height: 90px;
+    }
+    .rfbw {
+        height: 90px;
+    }
+    .tag img {
+        width: 38%;
+        margin-left: -15px;
+    }
+    .dc {
+        font-size: 15px;
+    }
+    .blk04 .box_cnt {
+        width: 366px;
+    }
+    .list_cnt img {
+        width: 50px;
+    }
+    .blk04 .btn_blk04 img {
+        width: 82%;
+    }
+    .action_btns {
+        margin-top: -38px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .topbanner {
         height: 58px;
@@ -442,9 +476,8 @@ a.btn {
         width: 50%;
     }
     .action_btns {
-    margin-top: -25px;
-}
-
+        margin-top: -25px;
+    }
 }
 
 @media screen and (max-width: 320px) {
