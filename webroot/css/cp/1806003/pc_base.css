@@ -1,0 +1,200 @@
+/*----------reset----------*/
+
+body,
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+code,
+kbd,
+samp,
+tt {
+    font-size: 100%;
+}
+
+
+/*purpose To enable resizing for IE */
+
+
+/*branch For IE6-Win, IE7-Win */
+
+input,
+button,
+textarea,
+select {
+    *font-size: 100%;
+}
+
+body {
+    line-height: 180%;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+:link,
+:visited,
+ins {
+    text-decoration: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+
+/*HTML5 tag*/
+
+section,
+article,
+aside,
+footer,
+header,
+nav,
+main {
+    display: block;
+}
+
+
+/*----------reset:end----------*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+body {
+    min-width: 1200px;
+    font-family: Arial, Helvetica, "微軟正黑", "Microsoft JhengHei", sans-serif;
+    color: #333;
+    background: #fff;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+a {
+    display: block;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.cf:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.container {
+    position: relative;
+    display: table;
+    clear: both;
+    width: 1024px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+
+/*----------header/footer----------*/
+
+#header {
+    display: table;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+    margin-top: 12px;
+}
+
+.myaccount {
+    float: right;
+    height: 80px;
+    width: 300px;
+    text-align: right;
+    padding: 20px 0;
+}
+
+.myaccount img {
+    max-height: 37px;
+}
+
+footer {
+    clear: both;
+    min-width: 1200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: #ea8805 solid 1px;
+    text-align: center;
+}
+
+
+/*----------header/footer:end----------*/
