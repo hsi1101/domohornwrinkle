@@ -1,0 +1,135 @@
+/*----------banner----------*/
+
+.banner {
+    width: 100%;
+    min-width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+/*----------banner:end----------*/
+
+
+/*----------content----------*/
+
+.info {
+    width: 100%;
+    height: 900px;
+    background: url("../../../images/cp/1806001/bg001_pc.jpg") no-repeat;
+    background-size: cover;
+    margin-top: 8px;
+}
+
+.infobox {
+    display: block;
+    border-radius: 20px;
+    margin: 50px 0;
+    text-align: center;
+    border: 10px solid transparent;
+}
+
+.infobox .tittle {
+    background-color: #ea8805;
+    padding: 10px 0;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+}
+
+.infobox .tittle img {
+    width: auto;
+    height: 37px;
+}
+
+.sale {
+    position: relative;
+    background: url("../../../images/cp/1806001/info-bg.jpg") bottom repeat-x;
+    background-color: #fff;
+    padding: 0 20px 20px 20px;
+    border-radius: 0 0 20px 20px;
+    z-index: 2;
+}
+
+.sale-item a {
+    cursor: pointer;
+}
+
+.sale-inner img {
+    margin: 15px 0;
+}
+
+.sale-item a img {
+    width: 92%;
+    margin: 5px 0;
+}
+
+.bg-item {
+    z-index: 0;
+}
+
+.leaf1 {
+    position: absolute;
+    top: 285px;
+    left: -95px;
+}
+
+.leaf2 {
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+}
+
+.infobox .sale-inner {
+    background-color: #fff;
+}
+
+.infobox .sale-item {
+    display: inline-block;
+    float: left;
+    width: calc(100%/3);
+}
+
+.ps {
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.ps h4 {
+    display: inline-block;
+    color: #fff;
+    background-color: #dc6a99;
+    padding: 3px 10px;
+    margin-bottom: 8px;
+}
+
+.ps ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 120%;
+}
+
+.ps li {
+    line-height: 20px;
+}
+
+.ps .sale-inner {
+    padding: 20px 0 40px 0;
+}
+
+.btn {
+    position: absolute;
+    top: 130px;
+    left: 25%;
+}
+
+.hover:hover {
+    opacity: 0.7;
+}
+
+
+/*----------content:end----------*/

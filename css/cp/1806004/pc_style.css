@@ -1,0 +1,425 @@
+/*----------topbanner----------*/
+
+.topbanner {
+    background: url("../../../images/cp/1806002/tpbg.jpg")repeat-y;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+}
+
+.lfbw {
+    display: table;
+    float: left;
+    width: 40%;
+    height: 115px;
+}
+
+.rfbw {
+    display: table;
+    float: right;
+    width: 60%;
+    text-align: right;
+    height: 115px;
+}
+
+.rf-img,
+.lf-img {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.lf-img img {
+    width: 100%;
+    height: auto;
+    margin-bottom: -30px;
+}
+
+.rf-img img {
+    width: auto;
+    max-height: 90px;
+}
+
+
+/*----------topbanner:end----------*/
+
+
+/*----------content----------*/
+
+.info {
+    width: 100%;
+    height: 72rem;
+    background: url("../../../images/cp/1806002/bg002_pc.jpg") no-repeat;
+    background-size: cover;
+}
+
+.info-btn {
+    display: block;
+    margin: 20px 0;
+}
+
+.info-btn img {
+    width: 100%;
+}
+
+.lf-btn,
+.rf-btn {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+}
+
+.lf-btn {
+    float: left;
+}
+
+.rf-btn {
+    float: right;
+}
+
+.infobox {
+    display: block;
+    border-radius: 20px;
+    text-align: center;
+    border: 10px solid transparent;
+}
+
+.infobox-bg {
+    position: relative;
+    width: 1024px;
+    background: url("../../../images/cp/1806001/info-bg.jpg") bottom repeat-x;
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.infobox-inner {
+    position: relative;
+}
+
+.infobox-inner p {
+    margin: 0;
+}
+
+.infobox-inner p.bg img {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.tag,
+.tw,
+p[class*="gift"],
+p[class*="product"],
+p[class*="nfs"] {
+    position: absolute;
+    z-index: 2;
+}
+
+.tag {
+    top: -18px;
+    left: 58px;
+}
+
+.tw {
+    top: 10px;
+    left: 324px;
+}
+
+.tw img {
+    max-width: 368px;
+    height: auto;
+}
+
+.giftw01 {
+    font-size: 35px;
+    font-weight: bold;
+    top: 246px;
+    left: 113px;
+    color: #fff;
+}
+
+.productw_01 {
+    font-size: 24px;
+    font-weight: bold;
+    top: 450px;
+    left: 400px;
+}
+
+.nfs_01 {
+    font-size: 15px;
+    background-color: #9fa0a0;
+    color: #FFF;
+    top: 455px;
+    left: 575px;
+    padding: 2px 15px 1px;
+}
+
+.giftw02 {
+    font-size: 22px;
+    font-weight: bold;
+    top: 570px;
+    left: 110px;
+    color: #fff;
+}
+
+.productw_02 {
+    font-size: 24px;
+    font-weight: bold;
+    top: 770px;
+    left: 570px;
+}
+
+.productw_02 span {
+    font-size: 35px;
+}
+
+.nfs_02 {
+    font-size: 15px;
+    background-color: #9fa0a0;
+    color: #FFF;
+    top: 785px;
+    left: 750px;
+    padding: 2px 15px 1px;
+}
+
+.productsp {
+    font-size: 17px;
+    font-weight: bold;
+    top: 815px;
+    left: 575px;
+}
+
+.dc {
+    font-size: 28px;
+    color: #ed98b5;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+
+/*----------btn----------*/
+
+.infolf-btn,
+.inforf-btn {
+    display: inline-block;
+}
+
+.infolf-btn {
+    float: left;
+    width: 37%;
+    text-align: right;
+}
+
+.infolf-btn img {
+    width: 67%;
+    padding-right: 30px;
+}
+
+.inforf-btn {
+    float: right;
+    width: 63%;
+    margin-bottom: 30px;
+}
+
+.inforf-btn section {
+    display: block;
+    width: 75%;
+    background-color: #ed98b5;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.inforf-btn a {
+    display: block;
+    font-size: 26px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+}
+
+.inforf-btn span {
+    font-weight: bold;
+}
+
+.inforf-btn a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.btn img {
+    width: 38%;
+    margin-bottom: -80px;
+}
+
+.hover:hover {
+    opacity: 0.7;
+}
+
+
+/*----------btn:end----------*/
+
+
+/*----------fpcontent----------*/
+
+
+/*blk04*/
+
+
+/*---------------------------------------*/
+
+.blk {
+    background-color: #ffe7c3;
+}
+
+.blk04 {
+    padding: 50px 0;
+}
+
+.blk04 .ttl {
+    margin: 0;
+    text-align: center;
+}
+
+.blk04 .dsc {
+    margin: 15px 0 0;
+    text-align: center;
+}
+
+.blk04 .box_cnt {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 25px 0 45px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.blk04 .list_cnt {
+    margin: 15px auto 0;
+    text-align: center;
+}
+
+.blk04 .list_cnt li {
+    display: inline-block;
+    margin: 0 6px;
+    vertical-align: top;
+}
+
+.blk04 .btn_blk04 {
+    position: relative;
+    z-index: 10;
+    margin: -25px 0 0;
+    text-align: center;
+}
+
+
+/*----------fpcontent:end----------*/
+
+#lean_overlay {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: none;
+}
+
+.popupContainer {
+    position: absolute;
+    width: 615px;
+    height: auto;
+    left: 45%;
+    top: 60px;
+    padding: 10px;
+}
+
+#modal_trigger {
+    display: block;
+}
+
+.btn-lightbox {
+    padding: 10px 20px;
+}
+
+a.btn-lightbox {
+    color: #666;
+    text-align: center;
+    text-decoration: none;
+}
+
+.text-lightbox {
+    position: absolute;
+    z-index: 2;
+    top: 260px;
+    left: 335px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.text-lightbox2 {
+    position: absolute;
+    z-index: 2;
+    top: 380px;
+    left: 335px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+
+/* Popup Styles*/
+
+.ppbg img {
+    width: 100%;
+}
+
+.frpic {
+    position: absolute;
+    top: 248px;
+    left: 82px;
+    width: 40%!important;
+}
+
+.frpic2 {
+    position: absolute;
+    top: 358px;
+    left: 82px;
+    width: 40%!important;
+}
+
+.modal_close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 46px 34px;
+    cursor: pointer;
+}
+
+
+/* Social Login Form */
+
+.action_btns {
+    margin-top: -50px;
+    clear: both;
+    overflow: hidden;
+}
+
+.action_btns a {
+    display: block;
+}
+
+.hover:hover {
+    opacity: 0.7;
+}
+
+
+/* User Login Form */
+
+
+/*----------content:end----------*/
