@@ -435,6 +435,9 @@ a.btn {
     .action_btns {
         margin-top: -38px;
     }
+    .modal_close {
+        padding: 40px 28px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -452,6 +455,7 @@ a.btn {
     }
     .tag img {
         width: 40%;
+        margin-left: 4px;
     }
     .dc {
         font-size: 17px;
@@ -466,7 +470,7 @@ a.btn {
         width: 60px;
     }
     .btn_blk04 img {
-        width: 92%;
+        width: 98%;
     }
     .tag {
         top: -8px;
@@ -477,6 +481,9 @@ a.btn {
     }
     .action_btns {
         margin-top: -25px;
+    }
+    .modal_close {
+        padding: 35px 25px;
     }
 }
 
@@ -495,5 +502,8 @@ a.btn {
     }
     .list_cnt img {
         width: 50px;
+    }
+    .modal_close {
+        padding: 30px 23px;
     }
 }

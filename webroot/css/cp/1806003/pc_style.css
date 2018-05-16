@@ -219,7 +219,7 @@ p[class*="nfs"] {
 .inforf-btn {
     float: right;
     width: 63%;
-    padding-top: 10px;
+    margin-bottom: 30px;
 }
 
 .inforf-btn section {
@@ -250,7 +250,7 @@ p[class*="nfs"] {
 }
 
 .btn img {
-    width: 40%;
+    width: 38%;
     margin-bottom: -80px;
 }
 

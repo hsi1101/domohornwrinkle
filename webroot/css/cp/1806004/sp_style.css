@@ -357,9 +357,9 @@ a.btn {
 .text-lightbox {
     position: absolute;
     z-index: 2;
-    top: 238px;
-    left: 354px;
-    font-size: 18px;
+    top: 234px;
+    left: 326px;
+    font-size: 20px;
     font-weight: bold;
     margin-right: 25px;
 }
@@ -367,9 +367,9 @@ a.btn {
 .text-lightbox2 {
     position: absolute;
     z-index: 2;
-    top: 375px;
-    left: 354px;
-    font-size: 18px;
+    top: 367px;
+    left: 326px;
+    font-size: 20px;
     font-weight: bold;
     margin-right: 25px;
 }
@@ -384,14 +384,14 @@ a.btn {
 .frpic {
     position: absolute;
     top: 216px;
-    left: 67px;
+    left: 50px;
     width: 46%!important;
 }
 
 .frpic2 {
     position: absolute;
     top: 338px;
-    left: 67px;
+    left: 50px;
     width: 46%!important;
 }
 
@@ -464,23 +464,26 @@ a.btn {
     }
     .frpic {
         top: 135px;
-        left: 36px;
+        left: 29px;
         width: 45%!important;
     }
     .frpic2 {
         top: 212px;
-        left: 36px;
+        left: 29px;
         width: 45%!important;
     }
     .text-lightbox {
-        top: 146px;
-        left: 207px;
-        font-size: 14px;
+        top: 142px;
+        left: 202px;
+        font-size: 14.5px;
     }
     .text-lightbox2 {
-        top: 226px;
-        left: 207px;
-        font-size: 14px;
+        top: 227px;
+        left: 202px;
+        font-size: 14.5px;
+    }
+    .modal_close {
+        padding: 40px 28px;
     }
 }
 
@@ -499,6 +502,7 @@ a.btn {
     }
     .tag img {
         width: 40%;
+        margin-left: 4px;
     }
     .dc {
         font-size: 17px;
@@ -513,7 +517,7 @@ a.btn {
         width: 60px;
     }
     .btn_blk04 img {
-        width: 92%;
+        width: 98%;
     }
     .tag {
         top: -8px;
@@ -523,22 +527,27 @@ a.btn {
         width: 50%;
     }
     .frpic {
-        top: 132px;
-        left: 34px;
-        width: 38%!important;
+        top: 125px;
+        left: 26px;
+        width: 43%!important;
     }
     .frpic2 {
         top: 192px;
-        left: 34px;
-        width: 38%!important;
+        left: 26px;
+        width: 43%!important;
     }
     .text-lightbox {
-        top: 132px;
-        left: 168px;
+        top: 130px;
+        left: 172px;
+        font-size: 14px;
     }
     .text-lightbox2 {
         top: 203px;
-        left: 168px;
+        left: 172px;
+        font-size: 14px;
+    }
+    .modal_close {
+        padding: 35px 25px;
     }
 }
 
@@ -560,22 +569,25 @@ a.btn {
     }
     .frpic {
         top: 110px;
-        left: 34px;
-        width: 34%!important;
+        left: 22px;
+        width: 39%!important;
     }
     .frpic2 {
-        top: 156px;
-        left: 34px;
-        width: 34%!important;
+        top: 162px;
+        left: 22px;
+        width: 39%!important;
     }
     .text-lightbox {
-        top: 108px;
+        top: 111px;
         left: 138px;
         font-size: 12px;
     }
     .text-lightbox2 {
-        top: 164px;
+        top: 170px;
         left: 138px;
         font-size: 12px;
+    }
+    .modal_close {
+        padding: 30px 23px;
     }
 }

@@ -362,9 +362,9 @@ a.btn {
 
 .frpic {
     position: absolute;
-    top: 284px;
-    left: 89px;
-    width: 71%!important;
+    top: 277px;
+    left: 62px;
+    width: 78%!important;
 }
 
 .modal_close {
@@ -438,6 +438,9 @@ a.btn {
     .action_btns {
         margin-top: -38px;
     }
+    .modal_close {
+        padding: 40px 28px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -455,6 +458,7 @@ a.btn {
     }
     .tag img {
         width: 40%;
+        margin-left: 4px;
     }
     .dc {
         font-size: 17px;
@@ -469,7 +473,7 @@ a.btn {
         width: 60px;
     }
     .blk04 .btn_blk04 img {
-        width: 86%;
+        width: 78%;
     }
     .tag {
         top: -8px;
@@ -482,8 +486,12 @@ a.btn {
         margin-top: -25px;
     }
     .frpic {
-        top: 167px;
-        left: 43px;
+        top: 163px;
+        left: 29px;
+        width: 86%!important;
+    }
+    .modal_close {
+        padding: 35px 25px;
     }
 }
 
@@ -504,7 +512,10 @@ a.btn {
         width: 50px;
     }
     .frpic {
-        top: 142px;
-        left: 43px;
+        top: 140px;
+        left: 25px;
+    }
+    .modal_close {
+        padding: 30px 23px;
     }
 }
