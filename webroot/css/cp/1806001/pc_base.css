@@ -199,6 +199,9 @@ footer {
 
 /*----------header/footer:end----------*/
 
+
+/*----------animated:start----------*/
+
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
@@ -217,8 +220,8 @@ footer {
         transform: scale3d(1, 1, 1);
     }
     50% {
-        -webkit-transform: scale3d(1.05, 1.05, 1.05);
-        transform: scale3d(1.05, 1.05, 1.05);
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03);
     }
     to {
         -webkit-transform: scale3d(1, 1, 1);
@@ -232,8 +235,8 @@ footer {
         transform: scale3d(1, 1, 1);
     }
     50% {
-        -webkit-transform: scale3d(1.05, 1.05, 1.05);
-        transform: scale3d(1.05, 1.05, 1.05);
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03);
     }
     to {
         -webkit-transform: scale3d(1, 1, 1);
@@ -245,4 +248,3 @@ footer {
     -webkit-animation-name: pulse;
     animation-name: pulse;
 }
-
